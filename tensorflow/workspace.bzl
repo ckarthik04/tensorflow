@@ -142,6 +142,7 @@ def tf_workspace(path_prefix = "", tf_repo_name = ""):
         sha256 = "5ea391d16fe8d18b7dfa1c0f2116ae8e528b827f556a4194ae33620d70218c5f",
         strip_prefix = "rmlarsen-eigen3-b37dbcb240a1",
         urls = [
+            "https://mirror.bazel.build/bitbucket.org/foo.tar.gz",
             "https://bitbucket.org/rmlarsen/eigen3/get/b37dbcb240a1.tar.gz",
         ],
     )
