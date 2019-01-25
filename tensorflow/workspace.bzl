@@ -139,10 +139,10 @@ def tf_workspace(path_prefix = "", tf_repo_name = ""):
     tf_http_archive(
         name = "eigen_archive",
         build_file = clean_dep("//third_party:eigen.BUILD"),
-        sha256 = "48678550a32665331d729be87076e576f2502fff325f5b6c2c78ebf7b1b22c7b",
-        strip_prefix = "rmlarsen-eigen3-bcc817c0ba98",
+        sha256 = "5ea391d16fe8d18b7dfa1c0f2116ae8e528b827f556a4194ae33620d70218c5f",
+        strip_prefix = "rmlarsen-eigen3-b37dbcb240a1",
         urls = [
-            "https://bitbucket.org/rmlarsen/eigen3/get/bcc817c0ba98.tar.gz",
+            "https://bitbucket.org/rmlarsen/eigen3/get/b37dbcb240a1.tar.gz",
         ],
     )
 
